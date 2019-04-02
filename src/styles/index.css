@@ -1,0 +1,34 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+a:focus {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+html,
+body,
+#app {
+  height: 100%;
+}
